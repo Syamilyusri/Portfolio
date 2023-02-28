@@ -1,0 +1,22 @@
+
+#toggle{
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #05ECCD;
+}
+
+.dark-theme{
+    background-color: #05ECCD;
+    color: #15181f;
+}
+.dark-theme #toggle{
+    background-color: #05ECCD;
+}
+.dark-theme #toggle:after{
+    background-color: transparent;
+    box-shadow: 10px 10px #15181f;
+    top: -4px;
+    left: 30px;
+}
+
+

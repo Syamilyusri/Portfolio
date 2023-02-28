@@ -1,0 +1,20 @@
+#toggle4{
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #FA73EA;
+   
+}
+
+.dark-theme4{
+    background-color: #FA73EA;
+    color: #15181f;
+}
+.dark-theme4 #toggle4{
+    background-color: #FA73EA;
+}
+.dark-theme4 #toggle4:after{
+    background-color: transparent;
+    box-shadow: 10px 10px #15181f;
+    top: -4px;
+    left: 30px;
+}

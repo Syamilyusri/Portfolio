@@ -1,0 +1,19 @@
+#toggle3{
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #cc3a3b;
+}
+
+.dark-theme3{
+    background-color: #cc3a3b;
+    color: #15181f;
+}
+.dark-theme3 #toggle3{
+    background-color: #cc3a3b;
+}
+.dark-theme3 #toggle3:after{
+    background-color: transparent;
+    box-shadow: 10px 10px #15181f;
+    top: -4px;
+    left: 30px;
+}

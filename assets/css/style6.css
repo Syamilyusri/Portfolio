@@ -1,0 +1,23 @@
+#toggle5{
+    -webkit-appearance: none;
+    appearance: none;
+
+    background-color: #9BFF73;
+
+    outline: none;
+    cursor: pointer;
+}
+
+.dark-theme5{
+    background-color: #9BFF73;
+    color: #15181f;
+}
+.dark-theme5 #toggle5{
+    background-color: #9BFF73;
+}
+.dark-theme5 #toggle5:after{
+    background-color: transparent;
+    box-shadow: 10px 10px #15181f;
+    top: -4px;
+    left: 30px;
+}

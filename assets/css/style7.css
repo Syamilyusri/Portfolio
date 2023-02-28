@@ -1,0 +1,16 @@
+#toggle6{
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.dark-theme6{
+    background-color: #949494;
+    color: #15181f;
+}
+
+.dark-theme6 #toggle6:after{
+    background-color: transparent;
+    box-shadow: 10px 10px #15181f;
+    top: -4px;
+    left: 30px;
+}
